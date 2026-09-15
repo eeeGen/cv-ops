@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "90928a0bc696838aebbbbab40ebfd0f7e80030f1",
-  "generatedAtUtc": "2026-09-15T22:23:35.2479025Z",
+  "sourceCommit": "39a4e5f1e3065d1c6a9a780613fea2d8cf46e73f",
+  "generatedAtUtc": "2026-09-15T22:24:44.1732734Z",
   "exportedDirectories": [
     ".agents",
     ".codex-plugin",
