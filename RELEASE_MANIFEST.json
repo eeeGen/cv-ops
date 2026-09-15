@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "6126dc277784c4e762c8de726dabcb1e8a592f73",
-  "generatedAtUtc": "2026-09-15T21:27:23.5203013Z",
+  "sourceCommit": "cd6d9644c0977357aeb8f974e79e03f81febe65d",
+  "generatedAtUtc": "2026-09-15T21:29:40.8495941Z",
   "exportedDirectories": [
     ".codex-plugin",
     "skills",
