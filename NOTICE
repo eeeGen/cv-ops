@@ -1,0 +1,17 @@
+CV-ops includes unmodified, selectively imported files from the following MIT-licensed projects.
+
+career-ops
+Copyright (c) 2026 Santiago Fernández de Valderrama
+Source: https://github.com/career-ops-hq/career-ops
+Pinned revision: da8c6f9193ac3d7a48a583f815b7d0feab742b81
+License text: upstream/career-ops/LICENSE
+
+ai-job-search-codex
+Copyright (c) 2026 Mads Lorentzen
+Committed-source checkout: E:\Project\ai-job-search-codex
+Pinned revision: 1a116b3c6492347e040d0546135c9b4c70540fbb
+Origin chain: MadsLorentzen/ai-job-search -> ai-job-search-codex Codex port -> CV-ops
+License text: upstream/ai-job-search-codex/LICENSE
+
+No upstream file imported by Task 1 has been modified. See UPSTREAMS.md for the
+complete source-to-destination manifest and SHA-256 verification values.

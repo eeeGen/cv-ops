@@ -1,0 +1,31 @@
+{
+  "name": "cv-ops",
+  "version": "0.1.0",
+  "description": "Local, traceable CV and job-description workflow for Codex.",
+  "author": {
+    "name": "CV-ops Maintainers"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cv",
+    "resume",
+    "job-search",
+    "ats",
+    "privacy"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CV-ops",
+    "shortDescription": "本地、可追溯的简历与职位匹配工作流",
+    "longDescription": "帮助单个求职者在仓库外工作区处理简历和职位描述；仅在可核验的本地流程中报告结果。",
+    "developerName": "CV-ops Maintainers",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "检查我的 CV-ops 本地环境，并说明缺失依赖。",
+      "说明 CV-ops 如何保护候选人私有材料。"
+    ]
+  }
+}

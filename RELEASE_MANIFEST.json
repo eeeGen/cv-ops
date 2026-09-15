@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "6126dc277784c4e762c8de726dabcb1e8a592f73",
+  "generatedAtUtc": "2026-09-15T21:27:23.5203013Z",
+  "exportedDirectories": [
+    ".codex-plugin",
+    "skills",
+    "src",
+    "scripts",
+    "upstream"
+  ],
+  "exportedFiles": [
+    ".gitignore",
+    "LICENSE",
+    "NOTICE",
+    "UPSTREAMS.md"
+  ],
+  "templates": [
+    "README.md",
+    "SECURITY.md",
+    "package.json"
+  ]
+}

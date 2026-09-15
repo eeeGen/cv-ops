@@ -1,0 +1,16 @@
+{
+  "name": "cv-ops",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local, traceable CV and job-description workflow for Codex.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "doctor": "node scripts/doctor.mjs",
+    "lint": "node --check src/contracts/doctor.mjs && node --check scripts/doctor.mjs",
+    "build": "npm run lint"
+  }
+}

@@ -1,0 +1,12 @@
+# Local Codex and Agent Conductor runtime state
+.agent-conductor/
+.codex/
+main-log.md
+progress.md
+tatus
+
+# Development, planning, test, and audit materials excluded from the runtime plugin distribution
+tasks/
+tests/
+docs/
+CONTRIBUTING.md
