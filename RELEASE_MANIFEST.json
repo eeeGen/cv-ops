@@ -1,8 +1,9 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "583d1ab3ee2460fb4f8252967b8506cb281f4df0",
-  "generatedAtUtc": "2026-09-15T21:54:26.5992722Z",
+  "sourceCommit": "90928a0bc696838aebbbbab40ebfd0f7e80030f1",
+  "generatedAtUtc": "2026-09-15T22:23:35.2479025Z",
   "exportedDirectories": [
+    ".agents",
     ".codex-plugin",
     "skills",
     "src",

@@ -12,7 +12,7 @@ ATS 流程已实现真实 Playwright/Chromium 渲染和登记 verifier 门禁。
 
 ## 安装
 
-在 Codex 插件管理界面选择“从 GitHub 添加插件”，并使用本公开仓库地址。插件清单位于 `.codex-plugin/plugin.json`，安装后应显示为 `CV-ops`。
+在 Codex 插件管理界面先选择“添加 marketplace/插件市场”，并使用本公开仓库地址；再在该 marketplace 中安装 `cv-ops`。marketplace 清单位于 `.agents/plugins/marketplace.json`，插件清单位于 `.codex-plugin/plugin.json`；安装后应显示为 `CV-ops`。
 
 本地检查：
 
