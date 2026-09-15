@@ -1,0 +1,21 @@
+{
+  "name": "cv-ops-marketplace",
+  "interface": {
+    "displayName": "CV-ops"
+  },
+  "plugins": [
+    {
+      "name": "cv-ops",
+      "description": "Local, traceable CV and job-description workflow for Codex.",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
