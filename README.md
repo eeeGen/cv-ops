@@ -40,7 +40,7 @@ if (-not (Test-Path -LiteralPath $workspace)) {
 随后从插件仓库根目录运行初始化器：
 
 ```powershell
-node --input-type=module --eval 'import { initializeWorkspace } from "./src/workspace/initialize.mjs"; const result = await initializeWorkspace({ workspacePath: process.argv[1], pluginRoot: process.cwd() }); console.log(JSON.stringify(result)); process.exitCode = result.status === "ready" ? 0 : 1;' $workspace
+npm run init-workspace -- --workspace $workspace
 ```
 
 初始化器成功时退出码为 `0` 并输出 `ready` JSON；拒绝时退出码为 `1`，输出包含 `reason` 和 `nextAction` 的 `blocked` JSON。不要在非空目录、插件目录或符号链接重定向路径中初始化。

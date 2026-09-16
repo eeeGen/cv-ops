@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "39a4e5f1e3065d1c6a9a780613fea2d8cf46e73f",
-  "generatedAtUtc": "2026-09-15T22:24:44.1732734Z",
+  "sourceCommit": "52bfa87db43e232e11a5e8b204b3b6681ba58eba",
+  "generatedAtUtc": "2026-09-16T00:00:03.1340694Z",
   "exportedDirectories": [
     ".agents",
     ".codex-plugin",
@@ -12,6 +12,7 @@
   ],
   "exportedFiles": [
     ".gitignore",
+    "CHANGELOG.md",
     "LICENSE",
     "NOTICE",
     "UPSTREAMS.md"

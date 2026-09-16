@@ -17,6 +17,14 @@ npm run doctor -- --workspace "E:\candidate-workspace"
 
 用户确认仓库外的空目录后，工作区初始化与运行记录遵循 [工作区契约](references/workspace.md)。
 
+从插件仓库根目录初始化已存在的空目录：
+
+```powershell
+npm run init-workspace -- --workspace "E:\candidate-workspace"
+```
+
+此入口在 Windows PowerShell 中不依赖 `node --eval`，并以 JSON 返回 `ready` 或 `blocked`。
+
 ## 已实现的工作流
 
 - **工作区与事实门禁：** 初始化仓库外的私有工作区，导入并确认 profile、经历证据和 STAR；冲突或未确认事实保持 `blocked`。
